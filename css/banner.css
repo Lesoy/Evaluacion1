@@ -1,0 +1,22 @@
+#banner{
+    bottom: 100%;
+    background: orange;
+}
+
+#banner .contenedor{
+    position: absolute;
+    top: 85%;
+    left: 39%;
+    width: 50%;
+}
+
+#banner .imgbanner{
+    width: 100%;
+}
+
+.vehi{
+    text-decoration: none;
+    color: white;
+    border: solid 1px black;
+    background: rgb(48, 48, 48,0.6)
+}

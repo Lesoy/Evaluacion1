@@ -1,0 +1,26 @@
+#buscar{
+    width: 100%;
+    height: 260px;
+    background: orange;
+}
+
+.contenedor-input-buscar{
+    padding-left: 36%;
+    padding-top: 100px;
+    display: flex;
+    width: auto;
+    
+
+}
+
+.txt-corto{
+    width: 40%;
+    border: solid 2px black;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.contenedor-input input{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}

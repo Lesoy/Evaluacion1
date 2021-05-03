@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-color:orange;
+}
+
+header{
+    border:solid 2px black;
+    height: 75px;
+    background-color: red;
+    padding: 1%;
+    color: white;
+    
+}
+.icon-cab{
+    color: black;
+}
+
+footer{
+    border:solid 2px black;
+    height: 75px;
+    background-color: red;
+    padding: 1%;
+}
+
+@media screen and (min-width:720px) {
+   
+    #header{
+        border:solid 2px black;
+        height: 150px;
+        background-color: red;
+        padding: 2%;
+        
+        
+    }
+    
+   #footer{
+        border:solid 2px black;
+        height: 150px;
+        background-color: red;
+        padding: 2%;
+    }
+    
+}

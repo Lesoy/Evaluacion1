@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TallerMecanicoRayoMakween</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="CSS/estilosRegister.css">
+    
+</head>
+
+<body>
+
+
+    <header>
+        
+        <h1 class="icon-cab">ElRayoMakween</h1>
+
+    </header>
+
+
+    <form class="fromu-regis" action="" method="post" onsubmit="return Validar()" >
+
+        <h3 class="from-titulo">Nuevo usuario</h3>
+        <div class="Contenedor">
+
+            <input class="colum"  type="text" name="txtNombre" id="name" placeholder="Nombre completo" required minlength="3" maxlength="50"
+               >
+            <input class="colum" type="email" name="txtEmail" id="correovalid" placeholder="Correo eletrónico" required  minlength="8" maxlength="50"
+                >
+
+            <input class="colum2" type="password" name="txtPassword" id="contrasena" placeholder="Contraseña"  required minlength="5" maxlength="20">
+                
+            <input class="colum" type="password" name="txtPassword2" id="repcontrasena" placeholder="Repetir contraseña" required minlength="5" maxlength="20">
+                
+
+            <input class="boton2" type="submit" value="Volver al menú" onclick="">
+            <input class="boton" type="submit" value="Confirmar" onclick= "return Validar()" >
+
+        </div>
+    </form>
+
+    <footer>
+        <h1 class="icon-cab"></h1>
+    </footer>
+
+    
+    <script src="js/scrip.js"></script>
+    <script src ="JS/sweetalert2.all.min.js" ></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+#somos{
+    width: 100%;
+    height: auto;
+    background: orange;
+    padding-left: 10px;
+    
+}
+
+#somos h2{
+padding-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+#somos p{
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    
+}
+
+#somos li{
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    padding-top: 0px;
+}

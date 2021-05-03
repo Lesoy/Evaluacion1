@@ -1,0 +1,75 @@
+#formulario {
+    background:orange;
+    padding: 40px;
+    height: 140vh;
+    width: 100%;
+}
+#formulario h2{
+    padding-top: 50px;
+}
+
+
+.form-titulo {
+    background: rgb(114, 114, 114);
+    font-family: cursive;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-bottom: solid 5px tomato;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.form-registro {
+    background: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 8px;
+    height: 90vh;
+    width: 50%;
+}
+
+.contenedor-input {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.contenedor-input p {
+    font-size: large;
+    width: 100vh;
+    margin-top: 3px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.col-sm {
+    width: 100vh;
+}
+
+.col-xl {
+    width: 100%;
+    height: 40px;
+}
+
+.col-l {
+    width: 100%;
+    height: 90px;
+}
+
+.btn-registro {
+    background: rgb(22, 122, 30);
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    height: 50px;
+}

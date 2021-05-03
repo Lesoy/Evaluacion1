@@ -1,0 +1,83 @@
+@import url(fontello.css);
+@import url(general.css);
+
+
+.fromu-regis{
+
+    background-color:  rgb(246, 243, 243);
+    border: solid 2px black;
+    width: 95%;
+    max-width: 725px;
+    margin: auto;
+    margin-top: 10%; 
+    margin-bottom: 12%; 
+    border-radius: 5px; 
+   
+    
+}
+.from-titulo{
+    background-color: rgb(170, 166, 166);
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: solid 3px black;
+   
+}
+
+.Contenedor{
+
+    padding: 60px 40px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+input{
+    margin-bottom: 20px;
+    padding: 15;
+    font-size: 16px;
+    border-style: ridge;
+     
+}
+
+.colum{
+   width:95%;
+   margin-bottom: 10%;
+}
+.colum2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 9%; 
+      
+}
+
+.boton{
+    margin:auto;
+    background-color: green;
+    color: white;
+    padding: 2% 5% ;
+    cursor: pointer;
+}
+.boton2{
+    margin:auto;
+    background-color:red;
+    color: white;
+    padding: 2% 5%;
+    cursor: pointer;
+}
+.boton:active{
+    transform: scale(1.05);
+}
+.boton2:active{
+    transform: scale(1.05);
+}
+.claselink{
+width: 100%;
+margin: 10px;
+margin-top: 50px;
+text-align: center;
+font-size: 14px;
+
+}
+
+

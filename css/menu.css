@@ -1,0 +1,64 @@
+header label{
+    float: right;
+    font-size: 29px;
+    margin: 6px 0px;
+    cursor: pointer;
+    padding-top: 12px;
+}
+
+.menu{
+    position: absolute;
+    top:72px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 0, 0,0.7);
+    transform: translateX(-100%);
+    transition: 1s;
+
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 22px;
+    border-bottom: solid 1px white;
+}
+
+.menu a:hover{
+    background:  rgba(255, 255, 255, 0.6);
+    transition: 0.5s;
+}
+
+#menu-bar:checked~.menu{
+    transform:translateX(0%);
+}
+
+#menu-bar{
+    display: none;
+}
+
+@media (min-width:1024px){
+    .menu{
+        position: static;
+        width: auto;
+        height: auto;
+        float: right;
+        display: flex;
+        transform: translateX(0%) ;
+    }
+
+    header label{
+        display: none;
+    }
+
+    .menu a{
+        border-bottom: none;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        
+    }
+}

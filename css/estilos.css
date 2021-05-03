@@ -1,0 +1,147 @@
+@import url(menu.css);
+@import url(fontello.css);
+@import url(somos.css);
+@import url(buscar.css);
+@import url(banner.css);
+@import url(atenciones.css);
+@import url(admin.css);
+@import url(fontello.css);
+
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+header{
+    width: 100%;
+    height: 71px;
+    background: red;
+    position: fixed;
+    z-index: 100;
+}
+
+header h1{
+    float: left;
+    padding-top: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .contenedor img{
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+.fondo{
+    background: orange;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+footer{
+    background: red;
+    height: 80px;
+}
+
+footer .contenedor{
+    margin-top: 20px;
+    
+}
+
+footer .contenedor a{
+    float: right;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer .contenedor a:hover{
+    
+    background: rgb(255, 255, 255,0.6);
+    transition: 0.5s;
+}
+
+footer img{
+    width: 70px;
+    height: 70px;
+    float:left;
+}
+
+
+*
+
+
+.row {
+    background-color: orange;
+}
+
+.col {
+    background-color: orange;
+    height: 50vh;
+}
+
+.col img {
+    margin-bottom: 10px;
+    border: solid 3px black;
+    height: 30vh
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+    position: initial;
+}
+
+.contenedor .izq {
+    font-family: cursive;
+    font-size: medium;
+    float: left;
+    text-align: center;
+    margin-top: 2px;
+    height: 30px;
+}
+
+.row .col {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.img {
+    border: solid 3px black;
+    height: 250px;
+    width: 250px;
+}
+
+.slide {
+    margin-top: none;
+}
+
+.slide img {
+    height: 70vh;
+    margin-top: auto;
+    border-bottom: solid 3px black;
+}
+
+.container-fluid h1 {
+    font-size: medium;
+    color: white;
+}
+
+.container-fluid h2 {
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+
+.container-fluid p {
+    font-size: large;
+}

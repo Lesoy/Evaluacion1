@@ -1,0 +1,56 @@
+
+
+#atenciones{
+    width: 100%;
+    height: 740px;
+}
+
+#atenciones .contenedor1{
+    width: 100%;
+    height: 250px;
+    background: orange;
+}
+
+#atenciones li{
+    text-align: center;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 350%;
+    padding: auto;
+}
+
+#atenciones .contenedor2{
+    width: 50%;
+    background: orange;
+    border: solid 1px black;
+    float: left;
+    background: white;
+}
+
+#atenciones .contenedor3{
+    width: 50%;
+    background: orange;
+    border: solid 1px black;
+    float: right;
+    background: white;
+    
+    
+}
+
+#atenciones p{
+    border-bottom: solid 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    background: rgb(165, 165, 165);
+}
+
+#atenciones a{
+    color: black;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
